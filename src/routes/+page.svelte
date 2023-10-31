@@ -39,6 +39,7 @@
 </script>
 
 <main class="bg-black h-full">
+    <h1 class="text-white absolute mt-4 ml-4 text-lg">*This is only an estimation based on the previous sales</h1>
     <div class="flex flex-col justify-center h-full">
         <div class="flex justify-center">
             <div class="text-white text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
