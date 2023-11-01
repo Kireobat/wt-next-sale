@@ -275,6 +275,10 @@
         {
             "name": "Summer sales",
             "date": "June 27, 2023"
+        },
+        {
+            "name": "Anniversary sales",
+            "date": "November 1, 2023"
         }
     ]
 }

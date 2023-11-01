@@ -21,7 +21,7 @@ export async function GET() {
     salesData[lastYear].forEach((sale: any) => {
         const saleDate = new Date(sale.date)
         const diff = Math.abs(saleDate.getTime() - oneYearAgo.getTime())
-        if (diff < closestDiff) {
+        if (diff < closestDiff && saleDate > oneYearAgo) {
             closestSale = sale
             closestDiff = diff
         }
